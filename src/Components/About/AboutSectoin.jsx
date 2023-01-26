@@ -5,15 +5,15 @@ const AboutSectoin = () => {
     return (
         <div className='grid grid-cols-1 lg:grid-cols-2 items-center'>
             <div>
-                <h1 className='text-2xl text-center lg:text-left  lg:text-5xl text-white font-bold'>Why CryptoZombies is Different </h1>
+                <h1 className='text-3xl text-center lg:text-left  lg:text-5xl text-white font-bold'>Why CryptoZombies is Different </h1>
                 <div className='grid grid-cols-1 lg:grid-cols-2 items-center'>
-                    <div>
+                    <div className='mx-auto'>
                         <AvatarGroup></AvatarGroup>
-                        <p className='text-lg text-gray-400 '>Students</p>
+                        <p className='text-lg text-gray-400 text-center'>Students</p>
                     </div>
                     <div>
-                        <h1 className='text-2xl text-center lg:text-left  lg:text-5xl text-white font-bold mt-10 mb-3'>1M+</h1>
-                        <p className='text-lg text-gray-400 '>Students</p>
+                        <h1 className='text-4xl text-center lg:text-left  lg:text-5xl text-white font-bold mt-10 mb-3'>1M+</h1>
+                        <p className='text-lg text-gray-400 text-center'>Classes Completed</p>
                     </div>
                 </div>
             </div>

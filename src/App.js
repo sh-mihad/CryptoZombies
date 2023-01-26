@@ -4,14 +4,18 @@ import Menubar from './Components/Menubar/Menubar';
 import Header from './Components/Header/Header';
 import AboutSectoin from './Components/About/AboutSectoin';
 import CodeSection from './Components/CodeSection/CodeSection';
+import ZombieArmySection from './Components/ZombieArmy/ZombieArmySection';
+import CourseFormatSection from './Components/CourseFormatSection/CourseFormatSection';
 
 function App() {
   return (
-    <div className="bg-[#101033]  px-10 lg:px-32 lg:pb-32">
+    <div className="bg-[#101033]  px-5 lg:px-24 pb-32">
      <Menubar/>
      <Header></Header>
      <AboutSectoin/>
      <CodeSection></CodeSection>
+     <ZombieArmySection></ZombieArmySection>
+     <CourseFormatSection/>
     </div>
   );
 }
