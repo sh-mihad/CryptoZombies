@@ -1,4 +1,5 @@
 import React from 'react';
+import ImportentTokenSection from './ImportentTokenSection';
 import RewordSection from './RewordSection';
 
 const TokenInfoSection = () => {
@@ -9,6 +10,7 @@ const TokenInfoSection = () => {
             <p className='text-xl text-gray-400 my-5 lg:my-4 text-center lg:mx-10'>The token will be used to incentivize users to complete courses, and interact with the CZ community.</p>
            </div>
            <RewordSection/>
+           <ImportentTokenSection/>
         </div>
     );
 };

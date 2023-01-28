@@ -8,6 +8,9 @@ import ZombieArmySection from './Components/ZombieArmy/ZombieArmySection';
 import CourseFormatSection from './Components/CourseFormatSection/CourseFormatSection';
 import RodeMap from './Components/RodMapSection/RodeMap';
 import TokenInfoSection from './Components/TokenInfoSecion/TokenInfoSection';
+import NftRewordSection from './Components/NFTReword/NftRewordSection';
+import BrandSection from './Components/BrandSection/BrandSection';
+import NewSection from './Components/NewsSection/NewSection';
 
 function App() {
   return (
@@ -20,6 +23,9 @@ function App() {
      <CourseFormatSection/>
      <RodeMap/>
      <TokenInfoSection/>
+     <NftRewordSection/>
+     <BrandSection/>
+     <NewSection/>
     </div>
   );
 }
