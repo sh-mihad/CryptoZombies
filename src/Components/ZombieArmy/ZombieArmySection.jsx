@@ -4,6 +4,7 @@ import zombieArmyImage from '../../assests/zombeArmy.png';
 const ZombieArmySection = () => {
     return (
         <div className='grid grid-cols-1  items-center my-10 lg:my-20 lg:grid-cols-2 '>
+            
             <div className=''>
             <img src={zombieArmyImage} className="mx-auto " alt="" />
            </div>

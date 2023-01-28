@@ -6,6 +6,8 @@ import AboutSectoin from './Components/About/AboutSectoin';
 import CodeSection from './Components/CodeSection/CodeSection';
 import ZombieArmySection from './Components/ZombieArmy/ZombieArmySection';
 import CourseFormatSection from './Components/CourseFormatSection/CourseFormatSection';
+import RodeMap from './Components/RodMapSection/RodeMap';
+import TokenInfoSection from './Components/TokenInfoSecion/TokenInfoSection';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
      <CodeSection></CodeSection>
      <ZombieArmySection></ZombieArmySection>
      <CourseFormatSection/>
+     <RodeMap/>
+     <TokenInfoSection/>
     </div>
   );
 }
